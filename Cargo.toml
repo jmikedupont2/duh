@@ -7,6 +7,10 @@ description = "An npm scripts runner"
 authors = ["EGOIST <0x142857@gmail.com>"]
 homepage = "https://github.com/egoist/dum"
 
+[lib]
+path = "src/lib.rs"
+name = "dum_lib"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
